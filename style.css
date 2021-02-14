@@ -1,0 +1,350 @@
+body{
+
+    font-family: Raleway;
+    overflow: hidden;
+    
+}
+
+.nav-bar{
+    display: flex;
+  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn{
+    margin-right: 15px;
+    font-size: 45px;
+    color: #D500F6;
+    border-radius: 30px;
+    height: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.btn:hover{
+    color: white;
+    background: #D500F6;
+}
+
+.btn:focus{
+    color: white;
+    background: #D500F6;
+}
+
+
+.title{
+    font-size: 75px;
+    color: #D500F6;
+    border-right: 2px solid #D500F6;
+    padding-right: 30px;    
+}
+
+.home-page{
+    display: flex;
+    justify-content: space-between ;
+    
+}
+
+.vector-image{
+    height: 1100px;
+    
+}
+
+.order-btn{
+    font-size: 65px;
+    color: #D500F6;
+    border-radius: 50px;
+    border: 3px solid ;
+    height: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-right: 200px;
+    margin-top: 300px;
+}
+
+.order-btn:hover{
+    color: white;
+    background: #D500F6;
+}
+
+.device-page{
+    display: flex;
+ 
+
+}
+
+.mob-show-case{
+    display: flex;
+    padding: 20px;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.mobile-image{
+    height: 320px;
+    padding: 20px;
+   
+}
+
+
+
+.mobile-card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    align-items: center;
+    margin-top: 100px;
+    color: #D500F6 ;
+}
+
+.mobile-specs{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.mobile-specs:hover{
+    background: rgba(249, 210, 255, 0.692) ;
+   
+}
+
+
+.toprow{
+    display: flex;
+}
+
+.secondrow{
+    display: flex;
+
+}
+
+.cat-nav-bot{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    padding: 5px;
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 10px;
+  
+}
+.icon:hover{
+    background: rgba(247, 198, 255, 0.644);
+    color: white;
+    
+}
+
+.cat-menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+
+.cbtn{
+    margin-right: 15px;
+    font-size: 45px;
+    color: #D500F6;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: right;
+    height: 70px;
+    padding-right: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+
+}
+
+.cbtn:hover{
+    color: white;
+    background: #D500F6;
+}
+
+.cbtn.mobile{
+    color: white;
+    background: #D500F6;
+}
+
+.btn.home{
+    color: white;
+    background: #D500F6;
+}
+
+.ram,.storage,.brand{
+    padding: 15px;
+    color: white;
+    background: #D500F6;
+    font-size: 33px;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.price{
+    padding: 15px;
+    color: #D500F6;
+    border: 2px solid;
+    font-size: 33px;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.mobile-title{
+    font-size: 30px;
+    
+}
+
+.color{
+    padding: 15px;
+    color: white;
+    background: #D500F6;
+    font-size: 33px;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    flex: 1;
+    
+}
+
+.cat-nav-bot{
+    display: none;
+}
+@media all and (max-width: 480px) {
+
+    body{
+        
+    }
+    .cat-menu{
+        display: none;
+ 
+    }
+
+    .mob-show-case{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 0px;
+ 
+     
+    }
+
+    .title{
+        display: none;
+    }
+
+    .nav-bar::before{
+        content: 'PD|';
+        font-size: 40px;
+        color: #D500F6;
+        float: left;
+
+    }
+
+    .btn{
+        font-size: 18px;
+        height: 24px;
+        margin-top: 10px;
+        margin-right:0;
+     
+        
+    }
+
+    .home-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .order-btn{
+        margin: 0;
+        font-size: 45px;
+        padding: 10px;
+        height: 100%;
+    }
+
+    .vector-image{
+        height: 500px;
+        margin-top: 50px
+    }
+
+    .mobile-card{
+        margin:0;
+    
+
+    }
+
+    .ram,.storage,.brand{
+        padding: 15px;
+        color: white;
+        background: #D500F6;
+        font-size: 20px;
+        margin: 5px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .price{
+        padding: 15px;
+        color: #D500F6;
+        border: 2px solid;
+        font-size: 20px;
+        margin: 5px;
+        border-radius: 20px;
+        text-align: center;
+    }
+    
+    .mobile-title{
+        font-size: 20px;
+        
+    }
+    
+    .color{
+        padding: 15px;
+        color: white;
+        background: #D500F6;
+        font-size: 20px;
+        margin: 5px;
+        border-radius: 20px;
+        text-align: center;
+        flex: 1;
+        
+    }
+
+    .mob-show-case{
+        overflow-y: scroll;
+    }
+
+    .cat-nav-bot{
+       display: flex;
+    }
+
+
+
+    
+
+
+}    
+
