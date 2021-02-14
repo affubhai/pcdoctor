@@ -291,7 +291,7 @@ body{
     }
 
     .mobile-card{
-        margin:0;
+        margin:10px;
     
 
     }
@@ -334,11 +334,16 @@ body{
     }
 
     .mob-show-case{
-        overflow-y: scroll;
+        margin-top: 5px;
+        margin-left:30px;
     }
 
     .cat-nav-bot{
        display: flex;
+    }
+
+    .mobile-image{
+        height: 250px;
     }
 
 
